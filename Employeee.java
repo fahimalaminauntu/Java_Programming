@@ -20,7 +20,7 @@ public class Employeee {
     // Main method.
     public static void main(String[] args) {
         // Create an object of class Employee Which will call the constructor.
-        Employeee emp = new Employeee(4672, "Auntu");
+        Employeee emp = new Employeee(I: 4672, N: "Auntu");
         emp.info();
     }
 }
