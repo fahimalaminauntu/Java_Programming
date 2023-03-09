@@ -15,11 +15,11 @@ public class Emp {
     }
 
     public static void main(String[] args) {
-        Address address1=new Address("Pabna","Bera","Bangladesh");
+        Address address1=new Address("Faridpur","Jhiltuli","Bangladesh");
         Address address2=new Address("Dhaka","Saver","Bangladesh");
 
-        Emp e=new Emp(5656,"Bappy",address1);
-        Emp e2=new Emp(4672,"Auntu",address2);
+        Emp e=new Emp(4672,"Auntu",address1);
+        Emp e2=new Emp(3213,"Al Amin",address2);
 
         e.display();
         e2.display();
